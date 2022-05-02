@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fitness Club</title>
+<meta charset="UFT-8">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<style>
+        body{
+	font-family: 'Pacifico', cursive;
+	 background-image: url("back2.jpg");
+                  color:white;
+	margin:0px;
+	padding:0px;
+	background-size:1400px 1400px;
+	 background-repeat: no-repeat;
+  	background-attachment: scroll;
+	
+	}
+        .left{
+	display: inline-block;
+ 	position:absolute;
+	left:50px;
+	top:20px;
+	}
+      .left img{
+	margin:auto;
+	width:80px;
+	height:70px;
+	}
+       .left div{
+	text-align:centre;
+	}
+        .mid {
+	display: block;
+	width: 50%;
+	margin: 12px auto;
+	}
+        .right{
+	position: absolute;
+	right:38px;
+	top:30px;
+	}
+        .navbar{
+ 	display:inline-block;
+	}	
+         .navbar li{
+	font-size:25px;
+	display:inline-block;
+	}
+         .navbar li a{
+	color:white;
+	text-decoration:none;
+	padding:14px;
+	}
+         .navbar li a:hover, .navbar li a.active{
+	text-decoration:underline;
+	color:grey;
+       	}
+         .btn{
+	margin: 0px 9px;
+	padding: 4px 14px;
+	cursor: pointer;
+	}
+       .container{
+	border-style: solid;
+	border-color: white;
+	border-radius: 28px;
+	margin: 106px 80px;
+	padding:75px;
+	width: 33%;}
+      .form-gorup input{
+	text-align:center;
+	display: block;
+	width: 400px;
+	padding: 1px;
+	border-style: solid;
+	border-color: black;
+	margin:11px auto;
+	font-size: 25px;
+	border-radius:8px;
+	}
+      .container h1{
+	text-align:center;}
+      .container button{
+	display:block;
+	width:23%;
+	margin:auto;
+	}
+      
+</style>
+<body >
+	<header class="header">
+	           <div class="left">
+		<img src="logo.jpg">
+		<div>Fitness Club</div>
+	           </div>
+	           <div class="mid">
+		<ul class="navbar">
+			<li><a  href="#">Home</a></li>
+			<li><a  href="#">About us</a></li>
+			<li><a  href="#">Fitness calculator</a></li>
+			<li><a  href="#">Contact us</a></li>
+		</ul>
+	           </div>
+	          <div class="right">
+		<button class="btn">Call us</button>
+		<button class="btn">E-mail us</button>
+	          </div>
+	</header>
+       <div class="container">
+	<h1>Fill to join gym now</h1>
+	<form action="noaction.php">
+	<div class="form-gorup">
+		<input type="text" name="" placeholder="Enter your Name">
+	</div> 
+	<div class="form-gorup">
+		<input type="text" name="" placeholder="Enter your Age">
+	</div>
+	<div class="form-gorup">
+		<input type="text" name="" placeholder="Enter your Gender">
+	</div>
+	<div class="form-gorup">
+		<input type="text" name="" placeholder="Enter your Locality">
+	</div>
+	<button class="btn">Submit</button>
+       </div>
+</body>
+</html>
